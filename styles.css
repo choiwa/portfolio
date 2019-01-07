@@ -1,0 +1,54 @@
+.navBar {
+  display: flex;
+  flex-direction: row;
+}
+
+.navBox {
+  border: 1px solid palevioletred;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  /* align-content: center; */
+  font-size: 2em;
+  padding: 0.5em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.contents {
+  border: 1px solid aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentsBox {
+  display: flex;
+  width: 33%;
+  justify-content: center;
+  /* font-size: 2em;
+    margin: 1em; */
+  padding: 0.5em;
+  border: 1px solid blueviolet;
+}
+
+.contentsColumns {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.red-square {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
