@@ -21,7 +21,7 @@
       crossorigin="anonymous"
     /> -->
   </head>
-  <body class="bg-secondary">
+  <body class="bg-light">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">Joyce Cho</a>
       <!-- turns into button navbar when screen small -->
@@ -56,25 +56,46 @@
         id="avatar"
       />
     </div>
-    <div class="d-flex justify-content-center bg-dark"><h2>Joyce Cho</h2></div>
-    <div class="d-flex justify-content-center bg-dark"><p>Hello world</p></div>
+    <div class="d-flex justify-content-center bg-dark"><h1>Joyce Cho</h1></div>
+    <div class="d-flex justify-content-center bg-dark">
+      <h2>Full-Stack Software Engineer</h2>
+    </div>
     <div class="container">
-      im container
+      <h1 class="text-center">portfolio</h1>
       <div class="row">
-        <div class="col-sm">
+        <!-- <div class="row"> -->
+        <div class="col-6 col-md-4">
+          <a href="http://3.16.37.13:3001/">Airpnp Hosting Service</a>
+          <p>Online hosting service similar to Airbnb</p>
+          <p>Technologies used:</p>
+          <div class="techs">
+            <button type="button" class="btn btn-info">RectJS</button>
+            <button type="button" class="btn btn-info">Node.js</button>
+            <button type="button" class="btn btn-info">Express.js</button>
+            <button type="button" class="btn btn-info">Docker</button>
+            <button type="button" class="btn btn-info">mySQL</button>
+          </div>
+        </div>
+        <div class="col-12 col-md-8">
           <img
             src="./images/hostingService.png"
-            class="img-fluid img-thumbnail"
+            class="img-fluid"
             alt="Responsive image"
           />
         </div>
-        <div class="col-sm">
+
+        <!-- <div class="col-sm">
           <button type="button" class="btn btn-outline-light">
             Mirco Service for Airpnp
           </button>
-        </div>
+        </div> -->
+        <!-- </div> -->
       </div>
     </div>
+
+    <footer class="d-flex justify-content-center bg-dark">
+      <p>Joyce Cho © 2018</p>
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
