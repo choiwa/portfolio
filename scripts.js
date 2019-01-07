@@ -10,12 +10,6 @@ function avatarFlip() {
     } else {
       degrees = 0;
     }
-
-    // if (degrees === 180) {
-    //   degrees = -180;
-    // } else {
-    //   degrees = 180;
-    // }
   }
 }
 
